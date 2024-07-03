@@ -1,0 +1,49 @@
+.opt-container {
+  height: 40vh;
+  width: 40vh;
+  background-color: #7ab8f9;
+}
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 20px;
+}
+
+.box {
+  width: 350px;
+  height: 350px;
+  margin: 10px;
+  background-color: #4800ff1f;
+  border-radius: 8px;
+  border: 3px solid #9064ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #76d8ff;
+  padding: 10px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
