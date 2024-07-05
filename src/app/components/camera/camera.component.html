@@ -1,0 +1,11 @@
+<div class="camera-container">
+  <video #video width="100%" height="100%" autoplay></video>
+  <button (click)="takePhoto()">Take Photo</button>
+  <canvas #canvas style="display: none"></canvas>
+  <div class="overlay">
+    <img src="assets/car.png" alt="Car Image" class="centered-image" />
+  </div>
+  <div *ngIf="photo">
+    <img [src]="photo" alt="Captured Photo" />
+  </div>
+</div>
